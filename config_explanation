@@ -1,0 +1,18 @@
+{
+	"directory_to_parse" : "Absolute path to directory containing media",
+	"tv_directory" : "Absolute path of directory to sort and store TV files",
+	"movie_directory" : "Absolute path of directory to sort and store Movie files",
+	"manual_sort_directory" : "Absolute path of direcotry where media will be placed if it needs to be sorted",
+	"staged_for_deletion_directory" : "Absolute path of directory where excess media files will be stored",
+	"error_while_processing_directory" : "Absolute path of directory where media will be placed if there was an error while processing.",
+	"notifications" : {
+		"enabled" : "'true' OR 'false'",
+		"config" : {
+			"sender_username" : "Username of XMPP account that will send messages",
+			"sender_password" : "Password of XMPP account htat will send messages",
+			"receiver_usernames" : ["XMPP username to receive messages", "XMPP username to receive messages", "XMPP username to receive messages"]
+		}
+	},
+	"log_file" : "Absolute path of log file",
+	"errors_log_file" : "Absolute path of errors log file"
+}

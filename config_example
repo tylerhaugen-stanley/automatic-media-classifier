@@ -1,0 +1,18 @@
+{
+	"directory_to_parse" : "/Users/exmaple_user/Documents/media_parser/downloads_completed",
+	"tv_directory" : "/Users/example_user/Documents/media_parser/TV/",
+	"movie_directory" : "/Users/example_user/Documents/media_parser/Movies/",
+	"manual_sort_directory" : "/Users/example_user/Documents/media_parser/manual_sort/",
+	"staged_for_deletion_directory" : "/Users/example_user/Documents/media_parser/staged_for_deletion/",
+	"error_while_processing_directory" : "/Users/example_user/Documents/media_parser/error_while_processing_directory",
+	"notifications" : {
+		"enabled" : "true",
+		"config" : {
+			"sender_username" : "example_user@jabber.org",
+			"sender_password" : "example_users_password",
+			"receiver_usernames" : ["receiving_user@jabber.org", "receiving_user_2@jabber.org"]
+		}
+	},
+	"log_file" : "/Users/example_user/Documents/media_parser/log.txt",
+	"errors_log_file" : "/Users/example_user/Documents/media_parser/errors.txt"
+}
