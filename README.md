@@ -2,10 +2,10 @@
 
 ## Synopsis
 
-Automatic Media Classifier will classify and sort TV shows and Movies automatically. After classifying and sorting a Movie or TV show, Automatic Media Classifier can send users a XMPP message indicating that their media is ready to watch.
+Automatic Media Classifier will classify and sort TV shows and Movies automatically. After classifying and sorting a Movie or TV show, Automatic Media Classifier can send users a XMPP message indicating that their media is ready to watch. I personally use Plex 
 
 
-### Prerequisities/Installation
+## Prerequisities/Installation
 
 What things you need to install the software and how to install them
 - Python 2.7
@@ -34,6 +34,9 @@ What things you need to install the software and how to install them
 
     ### Manually
     - To run the program: ```/usr/bin/python2.7 .../media_parser.py```
+
+## Integration
+- Automatic Media Classifier works very well in conunction with [Plex Media Server](https://plex.tv/)
 
 ## API Reference
 - [pyxmpp2](https://github.com/Jajcus/pyxmpp2)
